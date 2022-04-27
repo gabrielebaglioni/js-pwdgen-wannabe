@@ -1,11 +1,15 @@
-//chiedo nome e salvo
-const userName = prompt ("inserisci il tuo nome")
-console.log(userName)
-// chiedo cognome e salvo
-const userLastName = prompt ("inserisci il tuo cognome")
-console.log(userLastName)
-//chiedo colore e salvo
-const userColor = prompt ("inserisci il tuo colore preferito")
-console.log(userColor)
-//genero un numero da affiancare e salvo 
-//accomuno tutto e genero password
+// //chiedo nome e salvo
+ let Name = prompt ("inserisci il tuo nome")
+// // console.log(userName)
+// // chiedo cognome e salvo
+ let surname = prompt ("inserisci il tuo cognome")
+// // console.log(userLastName)
+// //chiedo colore e salvo
+ let color = prompt ("inserisci il tuo colore preferito")
+// // console.log(userColor)
+// //accomuno tutto e genero password
+console.log(`${Name + surname + color}21`)
+ // console.log("gabrielebaglioniverde21")
+
+
+   
